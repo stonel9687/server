@@ -8,7 +8,7 @@ const Userlog = require('./collections/Userlog')
 const users = require('./collections/users')
 
 
-mongoose.connect('mongodb+srv://18119364:D7612590r@cluster0.4ultq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
+mongoose.connect(url, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
